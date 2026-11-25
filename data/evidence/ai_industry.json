@@ -1,0 +1,67 @@
+{
+  "entries": [
+    {
+      "mechanisms": ["ro_snapshot"],
+      "blocker": "中转商不敢承诺可查,因为一开放查询,客户就会看到上游 model 字段与实际模型不一致,这等于自曝渠道替换",
+      "first_customer": {
+        "role": "把 New API 部署出来对外卖的个体中转商",
+        "channel": "New API 部署者群"
+      },
+      "source": "docs/experiments/exp-01.md;data/projects/ai_industry_products.jsonl"
+    },
+    {
+      "mechanisms": ["export", "portable_format"],
+      "blocker": "导出等于降低迁移成本,中转商靠锁定客户赚钱,所以没人做导出;而客户想带走的是自己的调用历史,不是平台的记忆",
+      "first_customer": {
+        "role": "同时用两三家接入服务的采购方",
+        "channel": "自己的客户名单或者中转商群里的二次转介绍"
+      },
+      "source": "docs/experiments/exp-05.md;exp-01.md"
+    },
+    {
+      "mechanisms": ["proof_hash", "multi_witness", "notarize"],
+      "blocker": "客户真正追问的是「你有没有偷换模型」,但没人愿意为证明付钱,因为证明的成本落在中转商身上、收益落在客户身上",
+      "first_customer": {
+        "role": "已经卖出 AI 接入服务、被客户追问过模型身份的中转商",
+        "channel": "New API / one-api 部署者圈子"
+      },
+      "source": "docs/DECISION.md 第三条 A 方向"
+    },
+    {
+      "mechanisms": ["discard", "stateless", "session_capture"],
+      "blocker": "客户要求不留存,但排障、计费、对账全依赖日志;现有网关把日志当默认行为,没人提供可切换的不留存模式",
+      "first_customer": {
+        "role": "把客户商业数据送进模型的企业采购方",
+        "channel": "已经要求过单独签署数据处理协议的客户"
+      },
+      "source": "docs/experiments/exp-01.md a5"
+    },
+    {
+      "mechanisms": ["allowlist"],
+      "blocker": "上游账号会在无通知的情况下失效,但中转商不做上游白名单,因为名单一批量就把自己的路由自由度锁死",
+      "first_customer": {
+        "role": "同时池化多个订阅账号的代理运营者",
+        "channel": "CLIProxyAPI 与 cpa-docker 使用者"
+      },
+      "source": "Projects/cpa-sensenova-guard/README.md"
+    },
+    {
+      "mechanisms": ["approval_gate", "threshold_alert"],
+      "blocker": "价格与额度会在无通知的情况下变,但告警阈值靠人工盯;小中转商没有值班人,看到了也不会改",
+      "first_customer": {
+        "role": "一个人运维全部上游的单人中转商",
+        "channel": "New API 部署者群"
+      },
+      "source": "docs/experiments/exp-01.md a1"
+    },
+    {
+      "mechanisms": ["revoke", "freeze"],
+      "blocker": "版本漂移导致同一输入两周后结果不同,但没人能冻结一个模型版本给自己的客户;冻结靠的是渠道配置,不是平台能力",
+      "first_customer": {
+        "role": "对输出稳定性有合同要求的接入商",
+        "channel": "已经和客户签过 SLA 的那批人"
+      },
+      "source": "docs/experiments/exp-01.md a3"
+    }
+  ]
+}

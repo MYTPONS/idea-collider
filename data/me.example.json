@@ -1,0 +1,16 @@
+{
+  "name": "your-name",
+  "skills": ["Python", "TypeScript", "API integration"],
+  "channels": [
+    {
+      "name": "your-first-channel",
+      "keywords": ["community", "customer", "channel"],
+      "role": "the first group of people you can actually reach"
+    }
+  ],
+  "hours_per_week": 10,
+  "anti": [
+    { "name": "requires-license", "keywords": ["license", "permit"] },
+    { "name": "requires-24x7-support", "keywords": ["on-call", "24x7"] }
+  ]
+}

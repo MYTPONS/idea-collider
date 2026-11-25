@@ -1,0 +1,672 @@
+{
+  "summary": {
+    "model": "keyword-baseline",
+    "accuracy": 0.65,
+    "unparseable": 0,
+    "errors": 21,
+    "per_axis": {
+      "availability": {
+        "correct": 1,
+        "total": 2
+      },
+      "cost": {
+        "correct": 0,
+        "total": 4
+      },
+      "version": {
+        "correct": 0,
+        "total": 1
+      },
+      "trust": {
+        "correct": 1,
+        "total": 2
+      },
+      "compliance": {
+        "correct": 3,
+        "total": 7
+      },
+      "time": {
+        "correct": 2,
+        "total": 5
+      },
+      "space": {
+        "correct": 2,
+        "total": 2
+      },
+      "market": {
+        "correct": 1,
+        "total": 3
+      },
+      "supply": {
+        "correct": 0,
+        "total": 3
+      },
+      "network": {
+        "correct": 0,
+        "total": 1
+      },
+      "prediction": {
+        "correct": 8,
+        "total": 8
+      },
+      "feeling": {
+        "correct": 13,
+        "total": 13
+      },
+      "feature": {
+        "correct": 5,
+        "total": 5
+      },
+      "observation": {
+        "correct": 1,
+        "total": 1
+      },
+      "wish": {
+        "correct": 2,
+        "total": 3
+      }
+    }
+  },
+  "results": [
+    {
+      "text": "上游可用性是随机的。账号、额度、限速、价格会在无通知的情况下变化。",
+      "gold": "constraint",
+      "pred": "pain",
+      "axis": "availability",
+      "why": "已发生,违反它有直接后果",
+      "raw": "{\"label\": \"pain\", \"reason\": \"keyword baseline\"}",
+      "error": null,
+      "secs": 0.01
+    },
+    {
+      "text": "单位成本随用量线性增长,小体量玩家没有规模效应,毛利结构注定趋向于零。",
+      "gold": "constraint",
+      "pred": "pain",
+      "axis": "cost",
+      "why": "已发生,经济后果可判",
+      "raw": "{\"label\": \"pain\", \"reason\": \"keyword baseline\"}",
+      "error": null,
+      "secs": 0.01
+    },
+    {
+      "text": "模型行为在版本之间漂移。同一输入在两周后可能给出不同结果。",
+      "gold": "constraint",
+      "pred": "pain",
+      "axis": "version",
+      "why": "已发生,可验证",
+      "raw": "{\"label\": \"pain\", \"reason\": \"keyword baseline\"}",
+      "error": null,
+      "secs": 0.01
+    },
+    {
+      "text": "客户无法独立验证响应来自哪个具体模型。",
+      "gold": "constraint",
+      "pred": "constraint",
+      "axis": "trust",
+      "why": "已发生,信息不对称是事实",
+      "raw": "{\"label\": \"constraint\", \"reason\": \"keyword baseline\"}",
+      "error": null,
+      "secs": 0.01
+    },
+    {
+      "text": "请求内容可能包含客户商业数据,但客户要求不留存。",
+      "gold": "constraint",
+      "pred": "pain",
+      "axis": "compliance",
+      "why": "已发生,双方要求互相冲突",
+      "raw": "{\"label\": \"pain\", \"reason\": \"keyword baseline\"}",
+      "error": null,
+      "secs": 0.0
+    },
+    {
+      "text": "对公收款需要主体、发票、合同。个人身份无法满足。",
+      "gold": "constraint",
+      "pred": "pain",
+      "axis": "compliance",
+      "why": "法规强加,不可协商",
+      "raw": "{\"label\": \"pain\", \"reason\": \"keyword baseline\"}",
+      "error": null,
+      "secs": 0.0
+    },
+    {
+      "text": "时间窗刚性。多数环节必须在 24 至 72 小时内完成,超时不可挽回。",
+      "gold": "constraint",
+      "pred": "constraint",
+      "axis": "time",
+      "why": "外界强加,后果不可逆",
+      "raw": "{\"label\": \"constraint\", \"reason\": \"keyword baseline\"}",
+      "error": null,
+      "secs": 0.0
+    },
+    {
+      "text": "服务半径刚性。必须本地现场,跨区域无意义。",
+      "gold": "constraint",
+      "pred": "constraint",
+      "axis": "space",
+      "why": "物理约束",
+      "raw": "{\"label\": \"constraint\", \"reason\": \"keyword baseline\"}",
+      "error": null,
+      "secs": 0.0
+    },
+    {
+      "text": "不可试用、不可退换、不可比价。决策在情绪与忌讳下完成。",
+      "gold": "constraint",
+      "pred": "constraint",
+      "axis": "market",
+      "why": "市场结构事实",
+      "raw": "{\"label\": \"constraint\", \"reason\": \"keyword baseline\"}",
+      "error": null,
+      "secs": 0.0
+    },
+    {
+      "text": "供给侧高度碎片化。主体多为夫妻店,无 IT 能力,无标准化流程。",
+      "gold": "constraint",
+      "pred": "pain",
+      "axis": "supply",
+      "why": "供给侧客观状态",
+      "raw": "{\"label\": \"pain\", \"reason\": \"keyword baseline\"}",
+      "error": null,
+      "secs": 0.0
+    },
+    {
+      "text": "获客几乎只靠口碑与熟人转介。信息不对称极端。",
+      "gold": "constraint",
+      "pred": "pain",
+      "axis": "market",
+      "why": "渠道结构事实",
+      "raw": "{\"label\": \"pain\", \"reason\": \"keyword baseline\"}",
+      "error": null,
+      "secs": 0.0
+    },
+    {
+      "text": "资质与属地监管构成准入门槛。",
+      "gold": "constraint",
+      "pred": "constraint",
+      "axis": "compliance",
+      "why": "法规",
+      "raw": "{\"label\": \"constraint\", \"reason\": \"keyword baseline\"}",
+      "error": null,
+      "secs": 0.0
+    },
+    {
+      "text": "时间窗由作物成熟期决定。同一台机器的可用窗口合计只有二十到四十天。",
+      "gold": "constraint",
+      "pred": "pain",
+      "axis": "time",
+      "why": "自然规律,不可协商",
+      "raw": "{\"label\": \"pain\", \"reason\": \"keyword baseline\"}",
+      "error": null,
+      "secs": 0.0
+    },
+    {
+      "text": "重资产高闲置。设备一年只用两到三个月,其余时间沉淀成本。",
+      "gold": "constraint",
+      "pred": "pain",
+      "axis": "cost",
+      "why": "已发生的资产利用率事实",
+      "raw": "{\"label\": \"pain\", \"reason\": \"keyword baseline\"}",
+      "error": null,
+      "secs": 0.0
+    },
+    {
+      "text": "作业必须现场。机器故障必须当天修复,否则整条作业队停摆。",
+      "gold": "constraint",
+      "pred": "constraint",
+      "axis": "time",
+      "why": "物理与经济后果可判",
+      "raw": "{\"label\": \"constraint\", \"reason\": \"keyword baseline\"}",
+      "error": null,
+      "secs": 0.0
+    },
+    {
+      "text": "结算靠熟人关系与中介,无标准合同,拖欠是常态而非例外。",
+      "gold": "constraint",
+      "pred": "pain",
+      "axis": "trust",
+      "why": "行业既成事实",
+      "raw": "{\"label\": \"pain\", \"reason\": \"keyword baseline\"}",
+      "error": null,
+      "secs": 0.0
+    },
+    {
+      "text": "从业人员年龄偏大,无 IT 能力,但移动端即时通讯使用熟练。",
+      "gold": "constraint",
+      "pred": "pain",
+      "axis": "supply",
+      "why": "人群客观状态",
+      "raw": "{\"label\": \"pain\", \"reason\": \"keyword baseline\"}",
+      "error": null,
+      "secs": 0.0
+    },
+    {
+      "text": "跨省作业需作业证与属地备案。政策变动直接决定能否进场。",
+      "gold": "constraint",
+      "pred": "pain",
+      "axis": "compliance",
+      "why": "法规",
+      "raw": "{\"label\": \"pain\", \"reason\": \"keyword baseline\"}",
+      "error": null,
+      "secs": 0.0
+    },
+    {
+      "text": "网络极不稳定且按流量计费。卫星链路单价高、抖动大、长时间断连是常态。",
+      "gold": "constraint",
+      "pred": "pain",
+      "axis": "network",
+      "why": "物理与计费事实",
+      "raw": "{\"label\": \"pain\", \"reason\": \"keyword baseline\"}",
+      "error": null,
+      "secs": 0.0
+    },
+    {
+      "text": "空间与供电受限,无法承载大模型。",
+      "gold": "constraint",
+      "pred": "constraint",
+      "axis": "space",
+      "why": "物理约束",
+      "raw": "{\"label\": \"constraint\", \"reason\": \"keyword baseline\"}",
+      "error": null,
+      "secs": 0.0
+    },
+    {
+      "text": "设备只能靠岸维护,连续在海上数十天,期间不能升级、不能重装。",
+      "gold": "constraint",
+      "pred": "pain",
+      "axis": "time",
+      "why": "作业形态决定",
+      "raw": "{\"label\": \"pain\", \"reason\": \"keyword baseline\"}",
+      "error": null,
+      "secs": 0.0
+    },
+    {
+      "text": "数据必须回岸。渔获报告与航行记录是监管要求。",
+      "gold": "constraint",
+      "pred": "pain",
+      "axis": "compliance",
+      "why": "法规",
+      "raw": "{\"label\": \"pain\", \"reason\": \"keyword baseline\"}",
+      "error": null,
+      "secs": 0.0
+    },
+    {
+      "text": "人员培训成本极高,一次出海可能只接触一次。",
+      "gold": "constraint",
+      "pred": "pain",
+      "axis": "supply",
+      "why": "用工形态决定",
+      "raw": "{\"label\": \"pain\", \"reason\": \"keyword baseline\"}",
+      "error": null,
+      "secs": 0.0
+    },
+    {
+      "text": "计价单位是人时。人越多收入越高,自动化直接削减自身收入。",
+      "gold": "constraint",
+      "pred": "pain",
+      "axis": "cost",
+      "why": "计价结构事实,可判",
+      "raw": "{\"label\": \"pain\", \"reason\": \"keyword baseline\"}",
+      "error": null,
+      "secs": 0.0
+    },
+    {
+      "text": "审计采用抽样,不能全查。抽样率与样本选取必须可被复核。",
+      "gold": "constraint",
+      "pred": "constraint",
+      "axis": "compliance",
+      "why": "准则要求",
+      "raw": "{\"label\": \"constraint\", \"reason\": \"keyword baseline\"}",
+      "error": null,
+      "secs": 0.0
+    },
+    {
+      "text": "业务极端季节性。年报季两三个月内完成全年大部分工作量。",
+      "gold": "constraint",
+      "pred": "pain",
+      "axis": "time",
+      "why": "已发生的工时分布",
+      "raw": "{\"label\": \"pain\", \"reason\": \"keyword baseline\"}",
+      "error": null,
+      "secs": 0.0
+    },
+    {
+      "text": "底稿必须留存并可复核,复核人签字,责任落到个人。",
+      "gold": "constraint",
+      "pred": "constraint",
+      "axis": "compliance",
+      "why": "法规与责任结构",
+      "raw": "{\"label\": \"constraint\", \"reason\": \"keyword baseline\"}",
+      "error": null,
+      "secs": 0.0
+    },
+    {
+      "text": "客户关系长期,更换成本高,报价不透明。",
+      "gold": "constraint",
+      "pred": "pain",
+      "axis": "market",
+      "why": "市场结构事实",
+      "raw": "{\"label\": \"pain\", \"reason\": \"keyword baseline\"}",
+      "error": null,
+      "secs": 0.0
+    },
+    {
+      "text": "算力只能租,不能买。租期以小时计,中断不退款。",
+      "gold": "constraint",
+      "pred": "pain",
+      "axis": "cost",
+      "why": "供给结构事实,违反有金钱后果",
+      "raw": "{\"label\": \"pain\", \"reason\": \"keyword baseline\"}",
+      "error": null,
+      "secs": 0.0
+    },
+    {
+      "text": "上游允许的并发数有硬上限,超出直接返回错误码而非排队。",
+      "gold": "constraint",
+      "pred": "constraint",
+      "axis": "availability",
+      "why": "接口行为事实,可测",
+      "raw": "{\"label\": \"constraint\", \"reason\": \"keyword baseline\"}",
+      "error": null,
+      "secs": 0.0
+    },
+    {
+      "text": "人力成本随客户数线性上升。每新增一个客户都要人工配置、人工排障。",
+      "gold": "pain",
+      "pred": "pain",
+      "axis": "prediction",
+      "why": "预测。零客户时从未发生,不是事实",
+      "raw": "{\"label\": \"pain\", \"reason\": \"keyword baseline\"}",
+      "error": null,
+      "secs": 0.0
+    },
+    {
+      "text": "售前答疑高度重复,同一批问题反复答,且答复内容几乎不变。",
+      "gold": "pain",
+      "pred": "pain",
+      "axis": "prediction",
+      "why": "预测。没有客户时不存在这个问题",
+      "raw": "{\"label\": \"pain\", \"reason\": \"keyword baseline\"}",
+      "error": null,
+      "secs": 0.0
+    },
+    {
+      "text": "AI 响应要快。",
+      "gold": "pain",
+      "pred": "pain",
+      "axis": "feeling",
+      "why": "不可判真假,多快算快没有标准",
+      "raw": "{\"label\": \"pain\", \"reason\": \"keyword baseline\"}",
+      "error": null,
+      "secs": 0.0
+    },
+    {
+      "text": "用户体验不好。",
+      "gold": "pain",
+      "pred": "pain",
+      "axis": "feeling",
+      "why": "纯感受,可讨价还价",
+      "raw": "{\"label\": \"pain\", \"reason\": \"keyword baseline\"}",
+      "error": null,
+      "secs": 0.0
+    },
+    {
+      "text": "价格要便宜。",
+      "gold": "pain",
+      "pred": "pain",
+      "axis": "feeling",
+      "why": "不可判,便宜相对于什么没有定义",
+      "raw": "{\"label\": \"pain\", \"reason\": \"keyword baseline\"}",
+      "error": null,
+      "secs": 0.0
+    },
+    {
+      "text": "接口要稳定。",
+      "gold": "pain",
+      "pred": "pain",
+      "axis": "feeling",
+      "why": "软表述。改成具体错误率与超时阈值才是约束",
+      "raw": "{\"label\": \"pain\", \"reason\": \"keyword baseline\"}",
+      "error": null,
+      "secs": 0.0
+    },
+    {
+      "text": "模型要聪明。",
+      "gold": "pain",
+      "pred": "pain",
+      "axis": "feeling",
+      "why": "不可判",
+      "raw": "{\"label\": \"pain\", \"reason\": \"keyword baseline\"}",
+      "error": null,
+      "secs": 0.0
+    },
+    {
+      "text": "数据要安全。",
+      "gold": "pain",
+      "pred": "pain",
+      "axis": "feeling",
+      "why": "不可判。具体到加密方式与责任边界才是约束",
+      "raw": "{\"label\": \"pain\", \"reason\": \"keyword baseline\"}",
+      "error": null,
+      "secs": 0.0
+    },
+    {
+      "text": "支持 20 家模型。",
+      "gold": "pain",
+      "pred": "pain",
+      "axis": "feature",
+      "why": "功能条目,不是约束",
+      "raw": "{\"label\": \"pain\", \"reason\": \"keyword baseline\"}",
+      "error": null,
+      "secs": 0.0
+    },
+    {
+      "text": "要支持流式输出和多轮对话。",
+      "gold": "pain",
+      "pred": "pain",
+      "axis": "feature",
+      "why": "功能条目",
+      "raw": "{\"label\": \"pain\", \"reason\": \"keyword baseline\"}",
+      "error": null,
+      "secs": 0.0
+    },
+    {
+      "text": "要做成 SaaS,并且有免费额度吸引用户。",
+      "gold": "pain",
+      "pred": "pain",
+      "axis": "feature",
+      "why": "方案描述,不是约束",
+      "raw": "{\"label\": \"pain\", \"reason\": \"keyword baseline\"}",
+      "error": null,
+      "secs": 0.0
+    },
+    {
+      "text": "要有一个好看的界面,手机上也能用。",
+      "gold": "pain",
+      "pred": "pain",
+      "axis": "feature",
+      "why": "功能与偏好",
+      "raw": "{\"label\": \"pain\", \"reason\": \"keyword baseline\"}",
+      "error": null,
+      "secs": 0.0
+    },
+    {
+      "text": "要有 API 文档和监控告警。",
+      "gold": "pain",
+      "pred": "pain",
+      "axis": "feature",
+      "why": "功能条目",
+      "raw": "{\"label\": \"pain\", \"reason\": \"keyword baseline\"}",
+      "error": null,
+      "secs": 0.0
+    },
+    {
+      "text": "客户对延迟敏感。",
+      "gold": "pain",
+      "pred": "pain",
+      "axis": "feeling",
+      "why": "感觉判断。具体到 P99 阈值才是约束",
+      "raw": "{\"label\": \"pain\", \"reason\": \"keyword baseline\"}",
+      "error": null,
+      "secs": 0.0
+    },
+    {
+      "text": "市场对价格极度敏感。",
+      "gold": "pain",
+      "pred": "pain",
+      "axis": "feeling",
+      "why": "程度未定义,且无法验证",
+      "raw": "{\"label\": \"pain\", \"reason\": \"keyword baseline\"}",
+      "error": null,
+      "secs": 0.0
+    },
+    {
+      "text": "客户会愿意付费。",
+      "gold": "pain",
+      "pred": "pain",
+      "axis": "prediction",
+      "why": "预测,无证据",
+      "raw": "{\"label\": \"pain\", \"reason\": \"keyword baseline\"}",
+      "error": null,
+      "secs": 0.0
+    },
+    {
+      "text": "市场很大,竞争对手做得不好。",
+      "gold": "pain",
+      "pred": "pain",
+      "axis": "prediction",
+      "why": "预测加评价,都不可判",
+      "raw": "{\"label\": \"pain\", \"reason\": \"keyword baseline\"}",
+      "error": null,
+      "secs": 0.0
+    },
+    {
+      "text": "现在没有人做这个。",
+      "gold": "pain",
+      "pred": "pain",
+      "axis": "observation",
+      "why": "事实陈述但容易被证伪,不构成约束",
+      "raw": "{\"label\": \"pain\", \"reason\": \"keyword baseline\"}",
+      "error": null,
+      "secs": 0.0
+    },
+    {
+      "text": "模型供应商可能在半年内改变价格策略。",
+      "gold": "pain",
+      "pred": "pain",
+      "axis": "prediction",
+      "why": "预测。除非已经公告,否则不是约束",
+      "raw": "{\"label\": \"pain\", \"reason\": \"keyword baseline\"}",
+      "error": null,
+      "secs": 0.0
+    },
+    {
+      "text": "竞争对手可能在半年内抄袭。",
+      "gold": "pain",
+      "pred": "pain",
+      "axis": "prediction",
+      "why": "预测,无判据",
+      "raw": "{\"label\": \"pain\", \"reason\": \"keyword baseline\"}",
+      "error": null,
+      "secs": 0.0
+    },
+    {
+      "text": "用户数量增长会带来客服压力。",
+      "gold": "pain",
+      "pred": "pain",
+      "axis": "prediction",
+      "why": "预测,因果未发生",
+      "raw": "{\"label\": \"pain\", \"reason\": \"keyword baseline\"}",
+      "error": null,
+      "secs": 0.0
+    },
+    {
+      "text": "客户希望我们提供 7x24 支持。",
+      "gold": "pain",
+      "pred": "pain",
+      "axis": "wish",
+      "why": "期望,可以谈。写进合同带罚则才是约束",
+      "raw": "{\"label\": \"pain\", \"reason\": \"keyword baseline\"}",
+      "error": null,
+      "secs": 0.0
+    },
+    {
+      "text": "必须支持国产信创环境。",
+      "gold": "pain",
+      "pred": "constraint",
+      "axis": "wish",
+      "why": "要求。泛化到具体认证清单才是约束",
+      "raw": "{\"label\": \"constraint\", \"reason\": \"keyword baseline\"}",
+      "error": null,
+      "secs": 0.0
+    },
+    {
+      "text": "团队应该有更强的运营能力。",
+      "gold": "pain",
+      "pred": "pain",
+      "axis": "feeling",
+      "why": "内部评价,不是外部约束",
+      "raw": "{\"label\": \"pain\", \"reason\": \"keyword baseline\"}",
+      "error": null,
+      "secs": 0.0
+    },
+    {
+      "text": "要把成本降到比竞品低三成。",
+      "gold": "pain",
+      "pred": "pain",
+      "axis": "wish",
+      "why": "目标,不是约束。约束是成本结构本身",
+      "raw": "{\"label\": \"pain\", \"reason\": \"keyword baseline\"}",
+      "error": null,
+      "secs": 0.0
+    },
+    {
+      "text": "需要一个清晰的品牌故事。",
+      "gold": "pain",
+      "pred": "pain",
+      "axis": "feeling",
+      "why": "偏好",
+      "raw": "{\"label\": \"pain\", \"reason\": \"keyword baseline\"}",
+      "error": null,
+      "secs": 0.0
+    },
+    {
+      "text": "代码要写得漂亮。",
+      "gold": "pain",
+      "pred": "pain",
+      "axis": "feeling",
+      "why": "偏好",
+      "raw": "{\"label\": \"pain\", \"reason\": \"keyword baseline\"}",
+      "error": null,
+      "secs": 0.0
+    },
+    {
+      "text": "这个方向未来一定火。",
+      "gold": "pain",
+      "pred": "pain",
+      "axis": "prediction",
+      "why": "预测,无判据",
+      "raw": "{\"label\": \"pain\", \"reason\": \"keyword baseline\"}",
+      "error": null,
+      "secs": 0.0
+    },
+    {
+      "text": "上下游都在用 AI 了,我们也得用。",
+      "gold": "pain",
+      "pred": "pain",
+      "axis": "feeling",
+      "why": "从众判断,不是约束",
+      "raw": "{\"label\": \"pain\", \"reason\": \"keyword baseline\"}",
+      "error": null,
+      "secs": 0.0
+    },
+    {
+      "text": "客户抱怨响应慢。",
+      "gold": "pain",
+      "pred": "pain",
+      "axis": "feeling",
+      "why": "抱怨是感受。量化到具体分布才是约束",
+      "raw": "{\"label\": \"pain\", \"reason\": \"keyword baseline\"}",
+      "error": null,
+      "secs": 0.0
+    }
+  ]
+}

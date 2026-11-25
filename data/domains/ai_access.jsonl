@@ -1,0 +1,6 @@
+{"id": "a1", "text": "上游可用性是随机的。账号、额度、限速、价格会在无通知的情况下变化。任何以单一上游为前提的设计都会周期性失效。", "source": "docs/experiments/exp-01.md", "verified": true}
+{"id": "a2", "text": "单位成本随用量线性增长,小体量玩家没有规模效应,毛利结构注定趋向于零。", "source": "docs/experiments/exp-01.md", "verified": true}
+{"id": "a3", "text": "模型行为在版本之间漂移。同一输入在两周后可能给出不同结果,且变化不可预知。", "source": "docs/experiments/exp-01.md", "verified": true}
+{"id": "a4", "text": "客户无法独立验证响应来自哪个具体模型。", "source": "docs/experiments/exp-01.md", "verified": true}
+{"id": "a5", "text": "请求内容可能包含客户商业数据,但客户要求不留存。", "source": "docs/experiments/exp-01.md", "verified": true}
+{"id": "a6", "text": "对公收款需要主体、发票、合同,个人身份无法满足。", "source": "docs/experiments/exp-01.md", "verified": true}

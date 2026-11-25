@@ -1,0 +1,7 @@
+{
+  "name": "exp05",
+  "near": {"domain": "已存在的记忆产品面", "file": "data/domains/memory_products.jsonl"},
+  "far": {"domain": "个人信息保护", "file": "data/domains/data_rights.jsonl"},
+  "evidence": "data/evidence/exp05.json",
+  "limit": 24
+}

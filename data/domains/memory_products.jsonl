@@ -1,0 +1,6 @@
+{"id": "a1", "text": "任何记忆产品都不允许用户直接写入或修改一条记忆,用户只能等系统下次自行判断。用户对画像没有写入权。", "source": "docs/experiments/exp-05.md", "verified": true}
+{"id": "a2", "text": "记忆绑定在单个平台账户上,业界没有跨平台的记忆格式或迁移协议。用户换平台等于记忆清零。", "source": "docs/experiments/exp-05.md", "verified": true}
+{"id": "a3", "text": "记忆的改写由系统在后台发起,时间点与内容变更对用户不可见。用户无法审计自己的画像何时被改。", "source": "docs/experiments/exp-05.md", "verified": true}
+{"id": "a4", "text": "产品只承诺少问几遍,从不承诺可查、可改、可带走。用户对记忆没有合同层面的控制权。", "source": "docs/experiments/exp-05.md", "verified": true}
+{"id": "a5", "text": "主动助理默认主动,没有任何产品提供「今天别打扰我」的可设定预算入口。", "source": "docs/experiments/exp-05.md", "verified": true}
+{"id": "a6", "text": "能力依赖终身上下文,换设备、清会话或换平台,上下文断裂,记忆直接归零,没有降级路径。", "source": "docs/experiments/exp-05.md", "verified": true}

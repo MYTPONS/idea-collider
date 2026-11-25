@@ -1,0 +1,7 @@
+{
+  "name": "exp01",
+  "near": {"domain": "AI 接入层", "file": "data/domains/ai_access.jsonl"},
+  "far": {"domain": "殡葬服务", "file": "data/domains/funeral.jsonl"},
+  "evidence": "data/evidence/exp01.json",
+  "limit": 36
+}

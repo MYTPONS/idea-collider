@@ -1,0 +1,8 @@
+{"id": "k1", "name": "New API", "what": "开源的多上游 OpenAI 兼容网关,做渠道管理、额度与计费。", "satisfies": ["多上游路由", "渠道管理", "额度计费", "token 统计"], "gap": "返回的 model 字段来自渠道配置,不能证明上游真的是哪个模型;没有面向客户的凭据", "source": "https://github.com/Calcium-Ion/new-api"}
+{"id": "k2", "name": "one-api", "what": "同类的开源中转网关,支持多渠道与令牌分发。", "satisfies": ["多上游路由", "令牌分发", "额度管理"], "gap": "只做转发与计费,不产出任何可外发的调用事实", "source": "https://github.com/songquanpeng/one-api"}
+{"id": "k3", "name": "LiteLLM", "what": "Python 侧的模型路由库,统一 100+ 上游的调用格式,带成本追踪。", "satisfies": ["统一调用格式", "成本追踪", "失败重试", "回退"], "gap": "面向开发者进程内使用,不提供面向客户的对外证明;日志是内部指标不是凭据", "source": "https://github.com/BerriAI/litellm"}
+{"id": "k4", "name": "OpenRouter", "what": "托管的多模型聚合 API,按请求路由到不同厂商,返回实际使用的模型。", "satisfies": ["多模型聚合", "按请求路由", "用量计费", "模型回退"], "gap": "托管方自己就是信任源,客户仍然只能信它的说法;不提供第三方可验证的证据", "source": "https://openrouter.ai"}
+{"id": "k5", "name": "Dify", "what": "开源 LLM 应用编排平台,带知识库、工作流与可观测性。", "satisfies": ["应用编排", "知识库", "工作流", "调用日志"], "gap": "观测面向应用开发者,不面向最终客户;没有可外发的链路事实", "source": "https://github.com/langgenius/dify"}
+{"id": "k6", "name": "FastGPT", "what": "开源知识库问答系统,支持多模型接入与流程编排。", "satisfies": ["知识库问答", "流程编排", "多模型接入"], "gap": "不记录也无法出示上游模型身份;合规侧要求的人工响应流程需自己实现", "source": "https://github.com/labring/FastGPT"}
+{"id": "k7", "name": "硅基流动 SiliconFlow", "what": "国产模型托管平台,提供 OpenAI 兼容接口与多种开源模型。", "satisfies": ["模型托管", "OpenAI 兼容", "按量计费"], "gap": "托管方不对外披露调度细节;客户无法独立核对实际执行的是哪个权重版本", "source": "https://siliconflow.cn"}
+{"id": "k8", "name": "CLIProxyAPI", "what": "把订阅制 CLI 工具(Claude Code、Gemini CLI 等)转成 OpenAI 兼容接口的代理。", "satisfies": ["订阅转 API", "多账号池", "OpenAI 兼容"], "gap": "账号属于个人订阅,条款不支持转售;高并发触发风控,且没有任何对客户的可用性承诺", "source": "https://github.com/router-for-me/CLIProxyAPI"}

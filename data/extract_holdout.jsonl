@@ -1,0 +1,14 @@
+{"task": "gate", "input": {"text": "约束来源:审计准则的抽样与底稿要求、年报季的工时集中度、执业许可制度"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "b2 审计采用抽样,不能全查"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "抽样率与样本选取本身必须可被复核"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "b4 底稿必须留存并可复核,复核人签字,责任落到个人"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "b5 资质与执业许可是准入门槛,无资质不能出报告"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "组合 | 必须同时满足什么 | 候选形态 | 判定"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "a2 × b2 | 成本线性,而审计要求抽样且样本可复核 | 统计学抽样的留存与复核方案 | 存活"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "a3 × b4 | 版本漂移,而底稿必须可复核 | 版本锁定 + 复核记录 | 砍:与 exp-02 第二条合流"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "a5 × b4 | 不留存,而底稿必须留存 | 加密留存 | 砍:与 exp-02 第一条合流"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "满足\"合规要求可复核\"与\"客户要求不留存\"这对矛盾的第三种解法(前两种是全留和全删)"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "现在有人做吗:有日志采样(Wallarm 之类),但目标是降噪与降成本,不承担合规义务,也没有配合\"客户不知情但可审计\"的设计"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "第一个客户:被客户法务要求留痕、又嫌存储成本高的中转商"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "约束必须是已经发生的事实:上游会失效(发生过)、客户无法验证(发生过)、模型会漂移(发生过)"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "所以在有客户之前,这个工具只能产出技术侧的产品,产不出经营侧的产品"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}

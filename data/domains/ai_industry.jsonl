@@ -1,0 +1,10 @@
+{"id": "g1", "text": "上游模型服务的可用性是租来的,不是买断的。账号、额度、限速、价格会在无通知的情况下变化,任何以单一上游为前提的设计都会周期性失效。", "source": "docs/experiments/exp-01.md", "verified": true}
+{"id": "g2", "text": "单位成本随用量线性增长,小体量玩家没有规模效应,毛利结构注定趋向于零,只能靠加价或加服务撑。", "source": "docs/experiments/exp-01.md", "verified": true}
+{"id": "g3", "text": "模型行为在版本之间漂移。同一输入在两周后可能给出不同结果,且变化不可预知。", "source": "docs/experiments/exp-01.md", "verified": true}
+{"id": "g4", "text": "客户无法独立验证响应来自哪个具体模型。网关返回的 model 字段是配置项,不是上游事实。", "source": "docs/experiments/exp-01.md", "verified": true}
+{"id": "g5", "text": "请求内容可能包含客户商业数据,但客户要求不留存。排障、计费与对账都依赖日志,与不留存直接冲突。", "source": "docs/experiments/exp-01.md", "verified": true}
+{"id": "g6", "text": "对公收款需要主体、发票、合同,个人身份无法满足。接入服务做到能收钱时必然撞上这一条。", "source": "docs/experiments/exp-01.md", "verified": true}
+{"id": "g7", "text": "部分上游(如商汤 SenseNova)的额度按模型单独计算,窗口很小,连续两次调用即 429;429 不带 Retry-After,错误体有多种变体。把这类上游当普通 OpenAI 兼容上游接入会持续失败。", "source": "Projects/cpa-sensenova-guard/README.md(自测)", "verified": true}
+{"id": "g8", "text": "把订阅制 CLI 工具的账号转成 API 使用,额度与条款属于个人账号,并发一高就触发风控甚至封号;账号是租赁关系,不是可转售的资源。", "source": "Projects/CLIProxyAPI-src 与 cpa-docker(自用观察)", "verified": false}
+{"id": "g9", "text": "模型名是调用方可以随便写的字符串。同一个字符串可以指向不同上游,下游无法从响应本身区分真调用与别名。", "source": "行业通识,待人工复核", "verified": false}
+{"id": "g10", "text": "接入层是薄毛利生意,客户按 token 单价比价,换一家上游的迁移成本几乎为零,留存靠的不是技术壁垒。", "source": "docs/experiments/exp-01.md 与 cpa-docker 运营观察", "verified": false}

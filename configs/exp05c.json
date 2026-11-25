@@ -1,0 +1,8 @@
+{
+  "name": "exp05c",
+  "near": {"domain": "记忆产品的负空间", "file": "data/domains/memory_products.jsonl"},
+  "far": {"domain": "殡葬服务", "file": "data/domains/funeral.jsonl"},
+  "evidence": "data/evidence/exp05.json",
+  "limit": 24,
+  "samples": 3
+}

@@ -1,0 +1,15 @@
+{"name":"差分隐私","mechanism":"differential_privacy","claimed":"blank","found":"数牍 Tusita 隐私计算平台（差分隐私 / 联邦学习 / MPC，商用）","source":"https://www.sudoprivacy.com/pro_tusita.html","verdict":"existing"}
+{"name":"存证哈希","mechanism":"proof_hash","claimed":"blank","found":"易保全 区块链电子数据存证；可信时间戳（TSA）哈希校验，商用多年","source":"https://www.163.com/dy/article/HHDHC1QH05386JWB.html","verdict":"existing"}
+{"name":"第三方公证","mechanism":"notarize","claimed":"blank","found":"广州互联网法院“网通法链”可信电子证据平台；第三方电子存证","source":"https://www.jiayuan-law.com/cn/news_content.aspx?KeyID=00000000000000001735","verdict":"existing"}
+{"name":"水印","mechanism":"watermark","claimed":"blank","found":"阿里云 智能媒体服务 数字水印（版权/溯源水印）；阿里云 SASE 网页水印","source":"https://help.aliyun.com/zh/ims/digital-watermarking","verdict":"existing"}
+{"name":"只读快照","mechanism":"ro_snapshot","claimed":"blank","found":"阿里云 OSS Object WORM（一次写入多次读取，不可删改保留策略）；ECS 锁定快照","source":"https://help.aliyun.com/zh/oss/user-guide/object-level-retention-policy-object-worm","verdict":"existing"}
+{"name":"双写","mechanism":"dual_write","claimed":"blank","found":"达梦 DPC 分布式集群（多副本同步、跨机房容灾）","source":"https://eco.dameng.com/community/article/66f104d2a4376d86712cd4a1586a96e8","verdict":"existing"}
+{"name":"影子副本","mechanism":"shadow_copy","claimed":"blank","found":"达梦 DPC 副本及影子副本（容灾高可用）","source":"https://eco.dameng.com/community/article/66f104d2a4376d86712cd4a1586a96e8","verdict":"existing"}
+{"name":"即焚","mechanism":"discard","claimed":"blank","found":"小天互连 / 企业微信 等政企 IM 的“阅后即焚”密聊机制","source":"https://news.sina.com.cn/sx/2026-04-10/detail-inhtzamu1280154.shtml","verdict":"existing"}
+{"name":"分账开票","mechanism":"invoice_split","claimed":"blank","found":"电商分账系统 / 分账服务商（央行监管户 + 全流程自动分账 + 开票）","source":"https://www.sohu.com/a/571181052_120178176","verdict":"existing"}
+{"name":"白名单","mechanism":"allowlist","claimed":"blank","found":"阿里云 API 网关 IP 访问控制（白名单/黑名单）","source":"https://help.aliyun.com/zh/api-gateway/traditional-api-gateway/user-guide/plug-ins-of-the-ip-access-control-type","verdict":"existing"}
+{"name":"全程留痕","mechanism":"session_capture","claimed":"blank","found":"菊风智能双录（录音录像 + 质检 + 回溯）；百度AI 金融双录","source":"https://www.163.com/dy/article/KAHMJJSP0556GF1K.html","verdict":"existing"}
+{"name":"无状态","mechanism":"stateless","claimed":"blank","found":"Serverless 平台（腾讯云 / 华为云，函数无状态执行）","source":"https://cloud.tencent.com/developer/article/2136537","verdict":"existing"}
+{"name":"时间锁","mechanism":"time_lock","claimed":"blank","found":"阿里云 ECS 锁定快照（锁定时长 1~36500 天，到期自动解锁）","source":"https://www.alibabacloud.com/help/zh/ecs/user-guide/lock-snapshot","verdict":"existing"}
+{"name":"多方见证","mechanism":"multi_witness","claimed":"blank","found":"顺丰数科 区块链供应链金融平台（融资方/物流方/仓储方/资金方多方对账存证）","source":"http://dsjfzj.gxzf.gov.cn/dtyw/dtywzwyw/t22511953.shtml","verdict":"existing"}
+{"name":"去中心化审计","mechanism":"decentralized_audit","claimed":"blank","found":"区块链多方存证审计（易保全 / 顺丰数科链，同源证据，未单独开产品页核对）","source":"https://www.163.com/dy/article/HHDHC1QH05386JWB.html","verdict":"existing-inferred"}

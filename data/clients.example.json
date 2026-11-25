@@ -1,0 +1,9 @@
+{
+  "clients": [
+    {
+      "name": "example",
+      "token": "REPLACE_ME",
+      "quota": 100
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{"task": "gate", "input": {"text": "venv/bin/python train/build_teacher_collide.py"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "候选必须同时满足两边约束,而第一批客户只能来自近域,所以近域约束实际上被满足得更多次、权重更高"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "做的人卡在哪:平台方没有动机做导出,导出等于降低迁移成本"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "a3 × b3 | 模型版本漂移,而数十天不能升级 | 长期冻结与离线回滚 | 砍:与实验 02 第二条重复"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "反例(不是约束):\"AI 响应要快\""}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "`collide`:给定近域、远域各一条约束,生成产品形态草稿"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "a5 请求内容可能包含客户商业数据,但客户要求不留存"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "第二步,如果五个里有两个以上说\"被问过、现在只能口头保证\",就把凭据做出来:响应里带上游返回的 model 字段、上游标识、耗时、响应头摘要,拼成一段可外发文本"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "任一维度给不出具体答案,候选作废"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "已有产品、卡点、客户来源必须由人填进 `evidence`"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "这是任务性质决定的,不是模型不行"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "近域 A:AI 接入层,约束沿用 a1–a"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "必须本地现场,跨区域无意义"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "存活候选是否同质:本轮候选与 exp-01「模型指纹凭据」同族,都是可证明、可追溯"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "可查视图/单条/全量/限时)"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "维度 | 要求 | 拒绝的回答"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "改用力的方向因此明确:要撞出新家族,先补碰撞训练样本的轴向,而不是换远域"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "`gate`:判断一条表述是约束还是痛点,并给轴向,实测"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "远域的约束必须来自可查的文档,不能靠模型回忆"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "一套是教师样本 `data/collide_train2.jsonl` 168 条(84 对 × 2 形态),带产品名"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "少于三根轴或单轴过半就告警"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "四维过滤里的事实(已有产品、卡点、第一个客户)必须来自 `evidence` 文件,模型编造的一律标为 `draft`,不计入存活"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "在没有具体需求、只有能力的情况下,把两个互不相干的领域的硬约束求交集,找出\"约束互相冲突、而现有方案从未同时满足过\"的产品形态"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "要拿到这一维,只能去问人,不能去搜"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "对调用方暴露的还是单一接口,但账单按实际外发量算"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "机器故障必须当天修复,否则整条作业队停摆,损失按天计"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "现有方案的取舍是二选一:要么全云,成本跟着用量涨"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "B 的经验边界:**训过的任务准,没训过的一律退化"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "系统化提高的是产量,而现在的问题在另一端:没有人真的开口去问过任何一个潜在客户"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "b1 网络极不稳定且按流量计费"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "a5 × b2 | 不留存数据,而必须本地处理 | 本地推理一体机,数据不出机器 | 砍:客户不可达"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "必须本地现场,跨区域无意义"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "六条方向里有五条的第一维就已经卡住(\"现在有人做吗\"能答,\"做的人卡在哪\"只能猜)"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}

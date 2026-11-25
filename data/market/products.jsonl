@@ -1,0 +1,32 @@
+{"id":"m001","name":"数牍 Tusita 隐私计算平台","category":"差分隐私","mechanisms":["differential_privacy"],"what":"融合 MPC/联邦学习/差分隐私的商用隐私计算平台","source":"https://www.sudoprivacy.com/pro_tusita.html"}
+{"id":"m002","name":"易保全 区块链电子存证","category":"存证哈希","mechanisms":["proof_hash"],"what":"区块链+可信时间戳的电子数据存证与哈希校验，商用多年","source":"https://www.163.com/dy/article/HHDHC1QH05386JWB.html"}
+{"id":"m003","name":"广州互联网法院 网通法链","category":"第三方公证","mechanisms":["notarize"],"what":"法院侧可信电子证据平台，第三方存证与核验","source":"https://www.jiayuan-law.com/cn/news_content.aspx?KeyID=00000000000000001735"}
+{"id":"m004","name":"阿里云 数字水印","category":"水印","mechanisms":["watermark"],"what":"视频版权水印与溯源水印；SASE 网页明/暗水印","source":"https://help.aliyun.com/zh/ims/digital-watermarking"}
+{"id":"m005","name":"阿里云 OSS Object WORM","category":"只读快照","mechanisms":["ro_snapshot"],"what":"对象级一次写入多次读取，不可删改合规保留","source":"https://help.aliyun.com/zh/oss/user-guide/object-level-retention-policy-object-worm"}
+{"id":"m006","name":"达梦 DPC 多副本","category":"双写","mechanisms":["dual_write"],"what":"分布式集群多副本同步 + 跨机房容灾","source":"https://eco.dameng.com/community/article/66f104d2a4376d86712cd4a1586a96e8"}
+{"id":"m007","name":"达梦 DPC 影子副本","category":"影子副本","mechanisms":["shadow_copy"],"what":"副本及影子副本，后台异步容灾","source":"https://eco.dameng.com/community/article/66f104d2a4376d86712cd4a1586a96e8"}
+{"id":"m008","name":"企业微信 / 小天互连 阅后即焚","category":"即焚","mechanisms":["discard"],"what":"政企 IM 的阅后即焚密聊，读后即消","source":"https://news.sina.com.cn/sx/2026-04-10/detail-inhtzamu1280154.shtml"}
+{"id":"m009","name":"电商分账系统（分账服务商）","category":"分账开票","mechanisms":["invoice_split"],"what":"央行监管户 + 全流程自动分账 + 开票，规避二清","source":"https://www.sohu.com/a/571181052_120178176"}
+{"id":"m010","name":"阿里云 API 网关 IP 访问控制","category":"白名单","mechanisms":["allowlist"],"what":"IP/AppID 白名单与黑名单放行控制","source":"https://help.aliyun.com/zh/api-gateway/traditional-api-gateway/user-guide/plug-ins-of-the-ip-access-control-type"}
+{"id":"m011","name":"菊风 智能双录","category":"全程留痕","mechanisms":["session_capture"],"what":"录音录像 + 质检 + 可视化回溯，金融合规","source":"https://www.163.com/dy/article/KAHMJJSP0556GF1K.html"}
+{"id":"m012","name":"Serverless 函数（腾讯云/华为云）","category":"无状态","mechanisms":["stateless"],"what":"函数无状态执行，按需伸缩","source":"https://cloud.tencent.com/developer/article/2136537"}
+{"id":"m013","name":"阿里云 ECS 锁定快照","category":"时间锁","mechanisms":["time_lock"],"what":"锁定时长 1~36500 天，到期自动解锁","source":"https://www.alibabacloud.com/help/zh/ecs/user-guide/lock-snapshot"}
+{"id":"m014","name":"顺丰数科 区块链供应链金融","category":"多方见证","mechanisms":["multi_witness"],"what":"融资/物流/仓储/资金多方对账与存证","source":"http://dsjfzj.gxzf.gov.cn/dtyw/dtywzwyw/t22511953.shtml"}
+{"id":"m015","name":"区块链多方存证审计","category":"去中心化审计","mechanisms":["decentralized_audit"],"what":"多方各自存证、链上审计（易保全/顺丰数科同源）","source":"https://www.163.com/dy/article/HHDHC1QH05386JWB.html"}
+{"id":"m016","name":"对象锁定 / 文件锁（S3 Object Lock）","category":"冻结","mechanisms":["freeze"],"what":"对象/文件级锁定，锁定期内不可改删","source":"https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lock.html"}
+{"id":"m017","name":"集中日志审计（ActionTrail / ManageEngine）","category":"集中审计","mechanisms":["central_audit"],"what":"所有操作进统一审计日志，集中查询","source":"https://help.aliyun.com/zh/actiontrail/"}
+{"id":"m018","name":"深信服 超融合异地容灾","category":"本地兜底","mechanisms":["local_fallback"],"what":"异地容灾 + 故障切换，远端不可用切本地","source":"https://www.sangfor.com.cn/sangfor-cloud/idc-dr"}
+{"id":"m019","name":"事件归档与回放（EventBridge Archive/Replay）","category":"重放","mechanisms":["replay"],"what":"事件归档后按需重放，复现历史输入","source":"https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-archive.html"}
+{"id":"m020","name":"数据导出（Data Transfer Project / Takeout）","category":"导出","mechanisms":["export"],"what":"用户数据导出为可带走副本","source":"https://datatransferproject.dev/"}
+{"id":"m021","name":"数据可携带（GDPR Art.20 / DTP）","category":"便携格式","mechanisms":["portable_format"],"what":"按公开/结构化格式导出，跨平台可读","source":"https://datatransferproject.dev/"}
+{"id":"m022","name":"令牌撤销（OAuth RFC 7009 / Cognito）","category":"撤销","mechanisms":["revoke"],"what":"授权方随时撤销令牌/授权","source":"https://docs.aws.amazon.com/zh_cn/cognito/latest/developerguide/token-revocation.html"}
+{"id":"m023","name":"审批流（云表 / 钉钉审批）","category":"闸门审批","mechanisms":["approval_gate"],"what":"关键动作需人工审批放行","source":"https://info.iyunbiao.com/14355.html"}
+{"id":"m024","name":"智能告警（云智慧 / 监控阈值告警）","category":"阈值告警","mechanisms":["threshold_alert"],"what":"阈值越线即告警，不自动处置","source":"https://www.sohu.com/a/813092281_121172607"}
+{"id":"m025","name":"消息队列（RabbitMQ / SQS）","category":"排队","mechanisms":["queue"],"what":"先来先服务的排队与削峰","source":"https://www.rabbitmq.com/"}
+{"id":"m026","name":"RAM 权限分级（阿里云 RAM / RBAC）","category":"分级披露","mechanisms":["tiered_disclosure"],"what":"按角色/权限分级授权，越权不可见","source":"https://help.aliyun.com/zh/ram/product-overview/what-is-ram"}
+{"id":"m027","name":"分库分表 / 分片（ShardingSphere）","category":"分片存储","mechanisms":["shard_store"],"what":"数据按片拆分存不同节点，单点拿不到全貌；通用品类","source":"https://shardingsphere.apache.org/"}
+{"id":"m028","name":"保证金 / 押金（Security deposit）","category":"押金","mechanisms":["deposit"],"what":"先交钱、违约扣款；通用品类","source":"https://en.wikipedia.org/wiki/Security_deposit"}
+{"id":"m029","name":"第三方资金托管（Escrow）","category":"托管","mechanisms":["escrow"],"what":"钱/数据先放中立方，条件满足才放款；通用品类","source":"https://en.wikipedia.org/wiki/Escrow"}
+{"id":"m030","name":"联邦学习（FATE / Federated Learning）","category":"联邦计算","mechanisms":["federated"],"what":"数据不动、模型动；微众 FATE 等平台","source":"https://fate.fedai.org/"}
+{"id":"m031","name":"预付费 / 余额（Prepaid）","category":"预付费","mechanisms":["prepaid"],"what":"先充值再消费、余额为负即停；通用品类","source":"https://en.wikipedia.org/wiki/Prepaid_mobile_phone"}
+{"id":"m032","name":"限流 / 速率限制（Rate limiting）","category":"限流","mechanisms":["rate_limit"],"what":"超频即拒，保护后端；API 网关标配","source":"https://en.wikipedia.org/wiki/Rate_limiting"}

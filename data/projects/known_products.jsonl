@@ -1,0 +1,20 @@
+{"id": "p001", "name": "阿里云 Memory", "source": "机器之心 2026-11-08 首页收录", "what": "面向 Personal Agent 的记忆服务。自动从对话提取关键信息构建用户画像,跨会话语义检索并动态更新,MCP、CLI、API 三种接入方式。", "satisfies": ["跨会话记忆", "偏好沉淀", "自动提取", "开发者接入"], "gap": "不提供最终用户自助的查阅、导出、删除入口,记忆锁定在阿里云账户内"}
+{"id": "p002", "name": "A5 主动式个人助理", "source": "机器之心 2026-11-08 首页收录", "what": "持续交互构建并更新对用户与项目的理解,把过往偏好、经验和决策带进新任务,检测关联来源变化并主动提出后续建议。", "satisfies": ["终身上下文", "偏好沉淀", "主动建议", "跨任务复用"], "gap": "依赖终身上下文,上下文断裂即能力归零;没有给用户设置打扰预算的入口"}
+{"id": "p003", "name": "Claude Duet", "source": "机器之心 2026-11-08 首页收录", "what": "Anthropic 的主动式智能体,可调用用户 Claude 账户里的记忆、技能与应用,支持 6000 以上连接器,敏感操作前请求批准。", "satisfies": ["记忆调用", "跨应用编排", "主动执行", "操作前审批"], "gap": "记忆绑定 Claude 账户;审批只覆盖操作,不覆盖画像本身的查看、更正与导出"}
+{"id": "p004", "name": "Replit Monitoring Agent", "source": "机器之心 2026-11-08 首页收录", "what": "自主监控代理,接收告警、访问生产日志与指标、调查原因、验证修复并自动发布,随后邮件报告变更摘要。", "satisfies": ["自动告警响应", "生产日志访问", "修复验证", "变更留痕"], "gap": "只覆盖工程运维场景,不处理用户侧数据与合规请求"}
+{"id": "p005", "name": "Canva Craft", "source": "机器之心 2026-11-08 首页收录", "what": "Canva 自研图像生成基础模型,两阶段架构,先构图规划再渲染,支持 2K 分辨率与 30 多种宽高比,DesignArena 综合排名第四。", "satisfies": ["设计场景图像生成", "版式控制", "多语言排版"], "gap": "与记忆、用户画像无关,不在同一约束轴上"}
+{"id": "p006", "name": "Mem0", "source": "https://mem0.ai", "what": "开源记忆层,给 LLM 加长期记忆,自动提取事实、消解冲突、按用户与代理隔离。", "satisfies": ["长期记忆", "自动提取", "冲突消解", "多租户隔离"], "gap": "自托管要自己运维,不提供面向最终用户的查阅、导出、删除界面"}
+{"id": "p007", "name": "Zep", "source": "https://getzep.com", "what": "记忆中间件,用时序知识图谱存对话与实体关系,提供低延迟检索。", "satisfies": ["时序记忆", "知识图谱", "低延迟检索"], "gap": "面向开发者,终端用户无法自助更正或删除记忆"}
+{"id": "p008", "name": "Letta", "source": "https://letta.com", "what": "有状态代理框架,代理可自编辑记忆块,分层存储短期与长期记忆。", "satisfies": ["自编辑记忆", "分层存储", "代理状态"], "gap": "记忆由代理自己管理,用户没有直接控制权"}
+{"id": "p009", "name": "ChatGPT Memory", "source": "https://openai.com", "what": "跨对话记住用户偏好与事实,用户可查看和删除记忆条目。", "satisfies": ["跨会话记忆", "偏好沉淀", "用户可查看删除"], "gap": "记忆仅限 ChatGPT 内,无法导出到别的模型"}
+{"id": "p010", "name": "Gemini 个人上下文", "source": "https://gemini.google.com", "what": "接入 Gmail、Drive 等 Google 应用的个人上下文,回答时引用。", "satisfies": ["个人上下文", "跨应用", "可关闭"], "gap": "依赖 Google 生态,第三方应用无法写入或读取"}
+{"id": "p011", "name": "Microsoft 365 Copilot", "source": "https://microsoft.com", "what": "企业内记忆与检索,继承租户权限,覆盖邮件、会议、文档。", "satisfies": ["企业检索", "会议纪要", "权限继承"], "gap": "记忆绑定租户,员工离职后记忆无法带走"}
+{"id": "p012", "name": "Notion AI", "source": "https://notion.so", "what": "工作区问答,引用页面内容回答问题,支持自动填充属性。", "satisfies": ["工作区问答", "页面引用"], "gap": "没有跨工作区的记忆迁移"}
+{"id": "p013", "name": "Glean", "source": "https://glean.com", "what": "企业搜索与助手,权限感知,连接上百个企业应用。", "satisfies": ["企业搜索", "权限感知", "连接器"], "gap": "只读搜索,不构建个人画像"}
+{"id": "p014", "name": "Dust", "source": "https://dust.tt", "what": "企业 AI 助手平台,多代理编排,连接企业知识库。", "satisfies": ["多代理", "连接器", "企业知识"], "gap": "没有用户级记忆,换人即从零开始"}
+{"id": "p015", "name": "Zapier Agents", "source": "https://zapier.com", "what": "自动化代理,跨应用触发动作,按事件执行工作流。", "satisfies": ["跨应用自动化", "触发器"], "gap": "没有记忆层,每次执行都是无状态的"}
+{"id": "p016", "name": "AWS Bedrock AgentCore Memory", "source": "https://aws.amazon.com", "what": "托管记忆服务,按会话隔离,提供 API 与事件。", "satisfies": ["托管记忆", "会话隔离", "API"], "gap": "不提供终端用户界面,合规请求要自己实现"}
+{"id": "p017", "name": "Coze 记忆", "source": "https://coze.cn", "what": "字节的 bot 平台记忆,支持变量、长期记忆与插件。", "satisfies": ["bot 记忆", "变量", "插件"], "gap": "记忆绑定单个 bot,用户换 bot 即失联"}
+{"id": "p018", "name": "钉钉 AI 助理", "source": "https://dingtalk.com", "what": "企业助理,接入通讯录、日程、审批与群聊。", "satisfies": ["企业通讯录", "日程", "审批"], "gap": "记忆不可导出,离职即失联"}
+{"id": "p019", "name": "飞书智能伙伴", "source": "https://feishu.cn", "what": "企业助手,文档问答、会议纪要与日程安排。", "satisfies": ["文档问答", "会议", "日程"], "gap": "记忆限于租户,跨租户不可迁移"}
+{"id": "p020", "name": "LangChain Memory", "source": "https://langchain.com", "what": "开发框架的记忆模块,提供会话缓冲、摘要记忆与向量存储。", "satisfies": ["会话缓冲", "摘要记忆", "向量存储"], "gap": "需自行实现持久化与合规逻辑"}

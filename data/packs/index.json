@@ -1,0 +1,43 @@
+{
+  "packs": [
+    {
+      "id": "memory-saas",
+      "name": "记忆 / 助手产品 × 个人信息保护",
+      "near": "data/domains/memory_products.jsonl",
+      "far": "data/domains/data_rights.jsonl",
+      "note": "近域是已上线的记忆产品,远域是个人信息保护的四项权利"
+    },
+    {
+      "id": "ai-gateway",
+      "name": "AI 接入层 × 个人信息保护",
+      "near": "data/domains/ai_access.jsonl",
+      "far": "data/domains/data_rights.jsonl",
+      "note": "近域是调用上游模型的接入层,远域同上"
+    },
+    {
+      "id": "memory-pipl",
+      "name": "记忆产品 × 个人信息保护法条文",
+      "near": "data/domains/memory_products.jsonl",
+      "far": "data/domains/ai_compliance.jsonl",
+      "note": "记忆产品 × 已核对的个人信息保护条文(第四十五到四十七条等)"
+    },
+    {
+      "id": "ai-industry",
+      "name": "AI 行业 × 生成式 AI 合规",
+      "near": "data/domains/ai_industry.jsonl",
+      "far": "data/domains/ai_compliance.jsonl",
+      "known": "data/projects/ai_industry_products.jsonl",
+      "evidence": "data/evidence/ai_industry.json",
+      "note": "近域是能碰到的 AI 接入与 agent 产品现实,远域是生成式 AI 合规义务(条号待复核)"
+    },
+    {
+      "id": "ai-forensics",
+      "name": "AI 接入层 × 电子数据取证",
+      "near": "data/domains/ai_industry.jsonl",
+      "far": "data/domains/ai_forensics.jsonl",
+      "known": "data/projects/ai_industry_products.jsonl",
+      "evidence": "data/evidence/ai_industry.json",
+      "note": "远域换成诉讼里的电子数据取证,检验远域是否真的改变形态"
+    }
+  ]
+}

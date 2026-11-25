@@ -1,0 +1,12 @@
+{"id": "u1", "text": "对公收款需要主体、发票与合同,个人身份无法签合同收款。", "source": "docs/experiments/exp-01.md a6", "verified": true}
+{"id": "u2", "text": "平台经济监管要求灵活用工的个税与社保有明确处理方式。", "source": "data/domains/companion_far.jsonl", "verified": false}
+{"id": "u3", "text": "未成年人保护法要求网络服务提供者限制未成年人消费与打赏。", "source": "data/domains/companion_far.jsonl", "verified": false}
+{"id": "u4", "text": "网络交易监督管理办法要求平台留存交易记录不少于三年。", "source": "data/domains/companion_far.jsonl", "verified": false}
+{"id": "u5", "text": "经营增值电信业务需要取得相应许可,否则不得上线运营。", "source": "data/domains/companion_far.jsonl", "verified": false}
+{"id": "u6", "text": "数据安全法要求对个人信息分类分级并采取保护措施。", "source": "data/domains/companion_far.jsonl", "verified": false}
+{"id": "u7", "text": "个人有权向处理者查阅、复制其个人信息;处理者应当及时提供。", "source": "《个人信息保护法》第四十五条", "verified": true}
+{"id": "u8", "text": "个人发现其个人信息不准确或者不完整的,有权请求处理者更正、补充。", "source": "《个人信息保护法》第四十六条", "verified": true}
+{"id": "u9", "text": "处理目的已实现、停止服务或保存期限届满时,处理者应当主动删除个人信息;个人也有权请求删除。", "source": "《个人信息保护法》第四十七条", "verified": true}
+{"id": "u10", "text": "网络运营者应当采取监测、记录网络运行状态与网络安全事件的技术措施,并留存网络日志不少于六个月。", "source": "《网络安全法》第二十三条", "verified": true}
+{"id": "u11", "text": "消费者权益保护法对网络服务有七日无理由退货的适用争议,预付式消费尤其明显。", "source": "data/domains/companion_far.jsonl", "verified": false}
+{"id": "u12", "text": "发生或者可能发生个人信息泄露、篡改、丢失的,应当立即采取补救措施并通知监管部门和个人。", "source": "《个人信息保护法》第五十七条", "verified": true}

@@ -1,0 +1,187 @@
+{"task": "gate", "input": {"text": "第一组(记忆 × 数据权利)推荐:"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "远域的约束必须来自可查的文档,不能靠模型回忆"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "同一台机器沿南北推进的可用窗口合计只有二十到四十天,错过即当年收益归零"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "实验者熟悉近域 A,抽约束时下意识地把 A 的约束往\"接入层可卖钱\"的方向引导"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "六条方向里有五条的第一维就已经卡住(\"现在有人做吗\"能答,\"做的人卡在哪\"只能猜)"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "a3 × b1 | 模型版本漂移,而流程必须可复现 | 模型版本冻结 + 结果留痕 | 砍:客户不可达"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "一条操作性补注,建议以后写进四维过滤的操作手册:第一维可以用媒体收录面查证,第二维和第四维必须靠人,不能靠检索"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "小体量玩家没有规模效应,毛利结构注定趋向于零"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "企业客户签约时明确要求\"我的数据不许留在你那\",同时等保与行业审计要求日志留存半年以上"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "exp-08 遗留问题:一条形态配 6 个约束对,因为机制只按轴匹配,同一轴上的近域约束被一视同仁"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "这三条正是手工分析里真正空白的差集"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "维度 | 要求 | 拒绝的回答"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "他们最想让客户看到的除模型身份外还有什么"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "实践含义:想换赛道,换近域,不是换远域"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "判断方法是看存活候选之间是否同质"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "规则:候选的第一批客户必须出自近域,或者出自你已经在的圈子"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "a5 × b4 | 客户要求不留存,而监管要求数据回岸 | 加密留存 | 砍:与实验 02 第一条重复"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "机制组合(`memory_products × data_rights`,6 × 4 对):"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "正式跑必须把候选量提到三位数,否则过滤器的价值体现不出来"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "实践含义:没有客户的时候,这个工具只能产出技术侧的产品"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "多数环节必须在 24 至 72 小时内完成,超时不可挽回"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "b6 跨省作业需作业证与属地备案"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "同一根轴反复撞,得到的是同一家族的变体"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "时间锁 | a1×b4 等 5 对"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "多数环节必须在 24 至 72 小时内完成,超时不可挽回"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "想换家族必须换近域,而换近域等于换客户群"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "信任类、合规类、版本类次之,因为信任缺失、审计义务、版本漂移这三件事不会因降价消失"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "近域 A 现有六条约束里,只有 a2 是成本轴,其余五条都是可用性与可信轴"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "有一类人手里有能力、有硬件、有技术判断,但没有具体要解决的问题"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "本轮是对规则二、三、四的重复验证"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "单轮一百条候选,通过四维过滤剩下至少一条,机制成立"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "三条都写不出第一个客户,按规则不存活"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "relate.py          相关性筛选"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "现在有人做吗:部分厂商有版本号,但没有强制冻结和回落语义"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "时机与范围从约束文本推断(改写前/断连时/账户内"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "四维过滤里的事实(已有产品、卡点、第一个客户)必须来自 `evidence` 文件,模型编造的一律标为 `draft`,不计入存活"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "near data/domains/memory_products.jsonl \\"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "机制加 `effort` 字段,simple 22 个、medium 9 个、hard 8 个"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "命中某产品 gap → 空白,且标明补的是谁的缺口"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "面向「最终用户自助」的层没有见到具体产品名,这一维目前只能写到这个程度,算半过"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "推论:还没有第一批真实客户的人,他的近域约束天然只有技术与上游这一根轴"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "`docs/experiments/exp-01..09.md` — 实验记录"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "记忆遗忘与衰减:偏好变了,旧记忆必须主动作废"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "做接入的人认为自己只负责转发"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "三个轮次跑完,存活候选中至少一条落在近域原有能力范围之外,才能说这个工具能产出意外"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "a1 × b5 | 上游随时失效,而口碑是唯一获客 | 故障对外不可见,静默降级 | 砍:客户不可达"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "a5 × b6 | 客户要求不留存,而属地监管要求留痕 | 加密留存,内容不可读但可审计 | **存活"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "候选 = 必须同时满足 `CA ∪ CB` 的产品形态"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "而换近域等于换客户群,是另一个层面的决定,不是这个工具能解决的"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "a1×b2 | 多方见证 | 近域不能写,远域要能更正,两方留证后改"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "b4 处理者须响应请求,不得以「没有这个功能」为由拒绝"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "以上六条均来自产品公开描述,不是推测"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "审计时出示密文与元数据即满足留存要求"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "成本优化类最脆:厂商一次降价就能作废"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "同一输入在两周后可能给出不同结果,且变化不可预知"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "a4 × b5 | 无法验证模型身份,而信息不对称极端 | 可验证的模型身份:每次响应带指纹、可追溯、可对外证明 | **存活"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "a1 × b3 | 上游随时失效,而现场必须当天可用 | 断网可用的故障诊断 | 砍:客户不可达"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "新闻、热搜、时事作为输入会污染整个流程"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "撞出来的仍是旧家族,与手工结论一致,区别是这次是实证而非推断"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "记忆跨 Agent 授权:一个助理的记忆能不能给另一个助理读,没有细粒度权限模型"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "a1 × b1 | 上游随时失效,而网络本身按流量计费且常断 | 离线为主路径,在线为增强 | 砍:客户不可达"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "渔获报告与航行记录是监管要求,不留在船上"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "记忆遗忘与衰减:偏好变了,旧记忆必须主动作废"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "远域约束必须来自可查文档,不能靠模型回忆"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "结论:排序时先看受物价变动影响的程度,再看可行度"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "第一个客户是谁、从哪认识 | 具体角色 + 具体圈子 | \"中小企业\"\"有需求的人\""}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "卡在哪:做中转的人默认\"留住日志\"和\"不看内容\"是矛盾的,所以没人想过用客户侧密钥把两者拆开"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "`relate`:判断两条约束是否真的在同一件事上互相施加要求,实测 11/"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "仓库有三层:一层是方法与实验记录(`docs/`),一层是判断模型(gate / relate),一层是机制组合与反向核对(`search` / `forge`)"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "所以流程必须批量生成、结构化打分,人力只投在最后一层"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "a5 × 无对应 | 主动打扰,而客户没有要求主动 | 打扰预算 | 砍:近域客户不为此付费"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "要拿到这一维,只能去问人,不能去搜"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "实践含义:没有客户的时候,这个工具只能产出技术侧的产品"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "第一个客户:用 AI 做周期性业务的团队,比如每月出报表、每季度做评测的"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "a4 × b5 | 客户无法验证,而使用者只接触一次 | 一次性可见的凭据 | 砍:客户不可达"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "补记:仓库已按新要求系统化,并微调了一个 0.5B 模型(LoRA)"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "手工结论之外,用仓库管线原样跑了一遍"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "`collider/search.py` 四层匹配:轴 → 远域风格白名单 → 近域类型 → 关键词打分"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "中转商不知道怎么向客户承诺,因为他们自己也不清楚记忆里存了什么"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "做中转的人默认客户不会追问,而客户也确实追问不了,因为拿不到可验证的凭据"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "a1 × b1 | 上游随时失效,而完成窗口不可延 | 断上游仍能跑的边缘推理,本地小模型兜底 | 砍:客户不可达"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "存活的候选写成一句话的产品形态 + 第一版砍到只剩什么"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "不确定的部分由代码标成 draft,证据仍必须外部提供"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "a5 × b4 | 客户要求不留存,而监管要求数据回岸 | 加密留存 | 砍:与实验 02 第一条重复"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "b4 结算靠熟人关系与中介,无标准合同,拖欠是常态而非例外"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "venv/bin/python train/train_lora.py --tasks gate"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "a5 × 无对应 | 主动打扰,而客户没有要求主动 | 打扰预算 | 砍:近域客户不为此付费"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "`runs/forge/report.md` — 推荐先做 / 空白 / 部分重叠 / 已被做 四段"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "B 的经验边界:**训过的任务准,没训过的一律退化"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "一个近域(你熟悉、客户碰得到),一个远域(离得远、约束硬、你不熟)"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "候选 = 必须同时满足 `CA ∪ CB` 的产品形态"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "第二步,如果五个里有两个以上说\"被问过、现在只能口头保证\",就把凭据做出来:响应里带上游返回的 model 字段、上游标识、耗时、响应头摘要,拼成一段可外发文本"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "known_products 扩到 20 个以上,每个 gap 写细"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "a1 × b3 | 上游随时失效,而现场必须当天可用 | 断网可用的故障诊断 | 砍:客户不可达"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "他们最怕中途换版本导致前后不可比"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "现在的中转商只能二选一:要么不留存,过不了审计"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "a4 对外承诺的是「少问几遍」,不是「你能查、能改、能带走」"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "mechanisms.py      机制库(39 个,带动作/代价/轴/关键词/难度/近域类型)"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "a1×b2 | 多方见证 | 近域不能写,远域要能更正,两方留证后改"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "\"交集非空\"要落到具体产品名上判定,不能凭感觉说\"好像有类似的\""}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "`relate`:判断两条约束是否真的在同一件事上互相施加要求,实测 11/"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "未训练的二分类一律全判 `true`,准确率等于正类比例"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "`runs/forge/candidates.jsonl` — 候选与反向核对结果"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "决策在情绪与忌讳下完成,理性比较被压制"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "a1×b1 | 只读快照 | 近域是不能写,远域是能看,快照是唯一的交集"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "memory_products × data_rights,23 条组合去重成 15 条:"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "前三组指向同一个东西,不是三个候选项"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "记忆权利中间层**:给已经接入记忆产品的 AI 中转商,包一层对外接口,让最终用户能查看、导出、删除自己被记下的内容,并附一份可外发的处理说明"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "如果五个里所有人都说\"没人问过\",A 作废,转 B"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "远域幻觉**:对不熟的领域,抽取约束时会编造行业惯例"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "规则:候选的第一批客户必须出自近域,或者出自你已经在的圈子"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "信任类、合规类、版本类次之,因为那些问题不会被降价解决"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "b3 设备只能靠岸维护,连续在海上数十天,期间不能升级、不能重装"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "要超出,得靠机制组合,不是继续堆样本"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "a5 × b2 | 不留存数据,而必须本地处理 | 本地推理一体机,数据不出机器 | 砍:客户不可达"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "远洋渔船 | 1 | 成本优化(本地预筛)"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "组合 | 必须同时满足什么 | 候选形态 | 判定"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "这解释了为什么六条候选里五条挤在可观测性上"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "远域约束必须来自可查文档,不能靠模型回忆"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "`novelty.judge` 拿组合里的机制关键词比对已知产品的 satisfies 与 gap"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "出 `report.md`(空白/部分重叠/已被做三组)与 `candidates.jsonl`"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "b3 设备只能靠岸维护,连续在海上数十天,期间不能升级、不能重装"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "b4 处理者须响应请求,不得以「没有这个功能」为由拒绝"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "约束来源:船载卫星通信的计费方式、设备靠岸维护周期、渔获报告的监管要求"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "补记:仓库已按新要求系统化,并微调了一个 0.5B 模型(LoRA)"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "novelty.py         反向核对:比对已知产品的 satisfies 与 gap"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "因为那时零客户,这两条从来没有发生过"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "a3 × b3 | 模型版本漂移,而数十天不能升级 | 长期冻结与离线回滚 | 砍:与实验 02 第二条重复"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "a5 × b6 | 客户要求不留存,而属地监管要求留痕 | 加密留存,内容不可读但可审计 | **存活"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "换远域只是换了一组附加条件,不会改变母题"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "约束抽软**:AI 抽约束时倾向于抽\"痛点\"而不是\"约束\""}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "组合 | 必须同时满足什么 | 候选形态 | 判定"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "第二组的\"重放(单条)\"最具体:模型漂移导致输出变化,用户行使更正权时原样重跑,能对上两条约束"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "a3 × b2 | 系统动态更新,而用户有权更正 | 更正入口 | 存活候选的组成部分"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "四维的第二维「做的人卡在哪」在公开信息里基本查不到"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "企业客户签约时明确要求\"我的数据不许留在你那\",同时等保与行业审计要求日志留存半年以上"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "现在的中转商只能二选一:要么不留存,过不了审计"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "a3 × b6 | 版本漂移,而资质要求可追责 | 面向有资质行业的结果可追溯服务 | 砍:客户不可达"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "判定标准:要不要新基础设施"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "把两个领域的硬约束写出来,然后找\"必须同时满足两边约束\"的产品形态"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "a1×b1 | 只读快照 | 近域是不能写,远域是能看,快照是唯一的交集"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "阶段 | 候选 | 空白 | 已被做"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "推荐段把候选从 15 条压到 5 条,且都是两周内能动手的"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "第一版砍到只剩:每次响应返回模型指纹(上游返回的 model 字段 + 上游 provider 标识 + 请求耗时 + 响应头摘要),拼成一条可外传的凭据"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "a6 × b4 | 对公资质门槛,而作业方无标准合同 | 标准化 SLA 与对账工具 | 砍:是文档不是产品"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "`near_style` 从近域文本推断类型"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "要检验机制是否真能产生意外,必须换一组近域为实验者不熟悉的领域对"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "a3 × b6 | 版本漂移,而资质要求可追责 | 面向有资质行业的结果可追溯服务 | 砍:客户不可达"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "D | 结算凭据与对账 | 能 | 低 | 中"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "选它的理由:这是法规强加的硬约束,违反有法律后果"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "即焚 | a5×b3 / a5×b"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "想换家族必须换近域,而换近域等于换客户群"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "a3 × b1 | 模型版本漂移,而流程必须可复现 | 模型版本冻结 + 结果留痕 | 砍:客户不可达"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "远域约束有多少条是编的:零"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "生成任务的上限等于教师样本水平,继续堆样本只是换个说法复述"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "候选必须同时满足两边约束,而第一批客户只能来自近域,所以近域约束实际上被满足得更多次、权重更高"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "已有产品、卡点、客户来源必须由人填进 `evidence`"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "未训练的二分类一律全判 `true`,准确率等于正类比例"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "上限卡在机制库和映射表:手工 35 个机制,远域风格白名单只有 4 类"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "两周能出什么:砍到只剩代理层加密写入加元数据落盘,不做密钥托管、不做审计报表"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "把两个领域的硬约束写出来,然后找\"必须同时满足两边约束\"的产品形态"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "约束来源:船载卫星通信的计费方式、设备靠岸维护周期、渔获报告的监管要求"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "选它算近域的理由:客户碰得到(做 AI 接入的中转商能直接对接这些 API),能判断真假(有产品名、有接入方式、有公开描述)"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "正式跑必须把候选量提到三位数,否则过滤器的价值体现不出来"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "search.py          机制 × 约束组合"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "不确定的部分由代码标成 draft,证据仍必须外部提供"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "a5 请求内容可能包含客户商业数据,但客户要求不留存"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "到那时约束才够硬,自动化才有输入"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "约束来源:农业农村部跨区作业证制度、历年麦收由南向北推移的时序、农机合作社的实际结算方式"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "说不出第一批客户在哪,这个方向就是假的,不管它听起来多顺"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "一条操作性补注,建议以后写进四维过滤的操作手册:第一维可以用媒体收录面查证,第二维和第四维必须靠人,不能靠检索"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "渔获报告与航行记录是监管要求,不留在船上"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "可用的输入类型:细分行业的作业手册与 SOP、死掉产品的尸检报告、物理与生物里的机制、被淘汰但机制仍然成立的老技术、法规与行业标准"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "两周能出什么:砍到只剩对长 prompt 做分块预筛,短 prompt 直通"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "机器故障必须当天修复,否则整条作业队停摆,损失按天计"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "闸门:近域 6/6、远域 4/4 判为约束,零解析失败"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "\"交集非空\"要落到具体产品名上判定,不能凭感觉说\"好像有类似的\""}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "所以流程必须批量生成、结构化打分,人力只投在最后一层"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "面向「最终用户自助」的层没有见到具体产品名,这一维目前只能写到这个程度,算半过"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "逐对检查 36 组,有实质交互的 9 组"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "审计时出示密文与元数据即满足留存要求"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "把这两维交给搜索,等于把猜测当证据"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "主体多为夫妻店,无 IT 能力,无标准化流程"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "反向验证真实起作用:闸门审批被认出来是 Claude Duet 已做的,没有被当成新机会"}, "output": {"label": "pain", "axis": "feeling"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "记忆跨 Agent 授权:一个助理的记忆能不能给另一个助理读,没有细粒度权限模型"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "信任类、合规类、版本类次之,因为信任缺失、审计义务、版本漂移这三件事不会因降价消失"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
+{"task": "gate", "input": {"text": "要检验机制是否真能产生意外,必须换一组近域为实验者不熟悉的领域对"}, "output": {"label": "constraint", "axis": "compliance"}, "why": "", "source": "extract-teacher"}
